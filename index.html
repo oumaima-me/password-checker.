@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Cybersecurity Background -->
+    <div class="background"></div>
+
+    <div class="login-container">
+        <h2>🔐 Password Checker</h2>
+
+        <!-- Form: pressing Enter will trigger the check -->
+        <form id="loginForm" onsubmit="checkPassword(); return false;">
+
+            <input type="text" id="username" placeholder="Username" required>
+
+            <input type="password" id="password" placeholder="Enter Password" required
+                onkeydown="if(event.key === 'Enter'){ checkPassword(); }">
+
+            <button type="button" onclick="checkPassword()">Check Password</button>
+        </form>
+
+        <p id="result"></p>
+        <p id="missing"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
