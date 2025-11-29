@@ -40,10 +40,8 @@ This project was created to:
 - Understand basic password security concepts  
 - Build a small but polished project for a portfolio or internship application  
 
-## 🌐 Live Demo (Optional)  
-If deployed with GitHub Pages, add the link here:
-
-
+## 🌐 Live Demo   
+ https://oumaima-me.github.io/password-checker./
 
 ## 🤝 Contributions  
 This project is open for learning, modifying, and improving.
